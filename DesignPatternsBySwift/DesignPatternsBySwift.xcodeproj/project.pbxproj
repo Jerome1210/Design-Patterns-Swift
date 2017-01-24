@@ -15,6 +15,7 @@
 		9BE8E2861E37AB7A0063DC54 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8E2801E37AB7A0063DC54 /* Circle.swift */; };
 		9BE8E2881E37AB7A0063DC54 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8E2821E37AB7A0063DC54 /* Rectangle.swift */; };
 		9BE8E2891E37AB7A0063DC54 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8E2831E37AB7A0063DC54 /* Shape.swift */; };
+		9BE8E28A1E37AB7A0063DC54 /* ShapeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8E2841E37AB7A0063DC54 /* ShapeFactory.swift */; };
 		9BE8E28B1E37AB7A0063DC54 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8E2851E37AB7A0063DC54 /* Square.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		9BE8E2801E37AB7A0063DC54 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Circle.swift; path = FactoryPattern/Circle.swift; sourceTree = SOURCE_ROOT; };
 		9BE8E2821E37AB7A0063DC54 /* Rectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rectangle.swift; path = FactoryPattern/Rectangle.swift; sourceTree = SOURCE_ROOT; };
 		9BE8E2831E37AB7A0063DC54 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shape.swift; path = FactoryPattern/Shape.swift; sourceTree = SOURCE_ROOT; };
+		9BE8E2841E37AB7A0063DC54 /* ShapeFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShapeFactory.swift; path = FactoryPattern/ShapeFactory.swift; sourceTree = SOURCE_ROOT; };
 		9BE8E2851E37AB7A0063DC54 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Square.swift; path = FactoryPattern/Square.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 				9BE8E2801E37AB7A0063DC54 /* Circle.swift */,
 				9BE8E2821E37AB7A0063DC54 /* Rectangle.swift */,
 				9BE8E2831E37AB7A0063DC54 /* Shape.swift */,
+				9BE8E2841E37AB7A0063DC54 /* ShapeFactory.swift */,
 				9BE8E2851E37AB7A0063DC54 /* Square.swift */,
 			);
 			name = FactoryPattern;
@@ -162,6 +165,7 @@
 				9BE8E2601E37978F0063DC54 /* ViewController.swift in Sources */,
 				9BE8E25E1E37978F0063DC54 /* AppDelegate.swift in Sources */,
 				9BE8E2861E37AB7A0063DC54 /* Circle.swift in Sources */,
+				9BE8E28A1E37AB7A0063DC54 /* ShapeFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
