@@ -12,7 +12,10 @@
 		9BE8E2631E37978F0063DC54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE8E2611E37978F0063DC54 /* Main.storyboard */; };
 		9BE8E2651E37978F0063DC54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE8E2641E37978F0063DC54 /* Assets.xcassets */; };
 		9BE8E2681E37978F0063DC54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE8E2661E37978F0063DC54 /* LaunchScreen.storyboard */; };
+		9BE8E2861E37AB7A0063DC54 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8E2801E37AB7A0063DC54 /* Circle.swift */; };
+		9BE8E2881E37AB7A0063DC54 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8E2821E37AB7A0063DC54 /* Rectangle.swift */; };
 		9BE8E2891E37AB7A0063DC54 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8E2831E37AB7A0063DC54 /* Shape.swift */; };
+		9BE8E28B1E37AB7A0063DC54 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8E2851E37AB7A0063DC54 /* Square.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +26,10 @@
 		9BE8E2641E37978F0063DC54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BE8E2671E37978F0063DC54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BE8E2691E37978F0063DC54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE8E2801E37AB7A0063DC54 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Circle.swift; path = FactoryPattern/Circle.swift; sourceTree = SOURCE_ROOT; };
+		9BE8E2821E37AB7A0063DC54 /* Rectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rectangle.swift; path = FactoryPattern/Rectangle.swift; sourceTree = SOURCE_ROOT; };
 		9BE8E2831E37AB7A0063DC54 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shape.swift; path = FactoryPattern/Shape.swift; sourceTree = SOURCE_ROOT; };
+		9BE8E2851E37AB7A0063DC54 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Square.swift; path = FactoryPattern/Square.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +76,10 @@
 		9BE8E26F1E37991F0063DC54 /* FactoryPattern */ = {
 			isa = PBXGroup;
 			children = (
+				9BE8E2801E37AB7A0063DC54 /* Circle.swift */,
+				9BE8E2821E37AB7A0063DC54 /* Rectangle.swift */,
 				9BE8E2831E37AB7A0063DC54 /* Shape.swift */,
+				9BE8E2851E37AB7A0063DC54 /* Square.swift */,
 			);
 			name = FactoryPattern;
 			path = "Factory Pattern";
@@ -147,9 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE8E28B1E37AB7A0063DC54 /* Square.swift in Sources */,
+				9BE8E2881E37AB7A0063DC54 /* Rectangle.swift in Sources */,
 				9BE8E2891E37AB7A0063DC54 /* Shape.swift in Sources */,
 				9BE8E2601E37978F0063DC54 /* ViewController.swift in Sources */,
 				9BE8E25E1E37978F0063DC54 /* AppDelegate.swift in Sources */,
+				9BE8E2861E37AB7A0063DC54 /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
