@@ -13,6 +13,7 @@
 		9BC181561E39183D005108B7 /* Blue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC181551E39183D005108B7 /* Blue.swift */; };
 		9BC181581E3919F6005108B7 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC181571E3919F6005108B7 /* AbstractFactory.swift */; };
 		9BC1815A1E391B82005108B7 /* ColorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC181591E391B82005108B7 /* ColorFactory.swift */; };
+		9BC1815C1E391CAA005108B7 /* FactoryProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1815B1E391CAA005108B7 /* FactoryProducer.swift */; };
 		9BC1815E1E391F9C005108B7 /* ShapeFactoryTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1815D1E391F9C005108B7 /* ShapeFactoryTwo.swift */; };
 		9BE8E25E1E37978F0063DC54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8E25D1E37978F0063DC54 /* AppDelegate.swift */; };
 		9BE8E2601E37978F0063DC54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8E25F1E37978F0063DC54 /* ViewController.swift */; };
@@ -34,6 +35,7 @@
 		9BC181551E39183D005108B7 /* Blue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blue.swift; sourceTree = "<group>"; };
 		9BC181571E3919F6005108B7 /* AbstractFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		9BC181591E391B82005108B7 /* ColorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorFactory.swift; sourceTree = "<group>"; };
+		9BC1815B1E391CAA005108B7 /* FactoryProducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryProducer.swift; sourceTree = "<group>"; };
 		9BC1815D1E391F9C005108B7 /* ShapeFactoryTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeFactoryTwo.swift; sourceTree = "<group>"; };
 		9BE8E25A1E37978F0063DC54 /* DesignPatternsBySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatternsBySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE8E25D1E37978F0063DC54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				9BC181531E3917DD005108B7 /* Green.swift */,
 				9BC181551E39183D005108B7 /* Blue.swift */,
 				9BC181571E3919F6005108B7 /* AbstractFactory.swift */,
+				9BC1815B1E391CAA005108B7 /* FactoryProducer.swift */,
 				9BC181591E391B82005108B7 /* ColorFactory.swift */,
 				9BC1815D1E391F9C005108B7 /* ShapeFactoryTwo.swift */,
 			);
@@ -203,6 +206,7 @@
 				9BE8E2861E37AB7A0063DC54 /* Circle.swift in Sources */,
 				9BE8E28A1E37AB7A0063DC54 /* ShapeFactory.swift in Sources */,
 				9BC181501E3916F5005108B7 /* Color.swift in Sources */,
+				9BC1815C1E391CAA005108B7 /* FactoryProducer.swift in Sources */,
 				9BC181561E39183D005108B7 /* Blue.swift in Sources */,
 				9BC181541E3917DD005108B7 /* Green.swift in Sources */,
 				9BC181521E3917AD005108B7 /* Red.swift in Sources */,

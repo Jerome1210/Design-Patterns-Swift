@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+class FactoryProducer {
+    func getFactory(choice: String) -> AbstractFactory? {
+        if choice == "SHAPE" {
+            return ShapeFactoryTwo()
+        } else if choice == "COLOR" {
+            return ColorFactory()
+        }
+        return nil
+    }
+}
