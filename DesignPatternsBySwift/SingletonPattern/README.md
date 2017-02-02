@@ -1,0 +1,1 @@
+Singleton pattern應該是iOS最常見的一個Design Pattern了，初期會覺得這個pattern非常簡單而且容易使用，不過太過分的使用會導致架構的錯亂及邏輯上的綑綁。雖然是個簡單且容易實踐的pattern，但除非有必要（真的只需要在app Life cycle有一個實例）否則不宜濫用。
