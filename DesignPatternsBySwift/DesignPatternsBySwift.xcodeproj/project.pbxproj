@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B3984AB1E4396B700018243 /* SingleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3984AA1E4396B700018243 /* SingleObject.swift */; };
+		9B3984AD1E43980E00018243 /* SingletonPatternDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3984AC1E43980E00018243 /* SingletonPatternDemo.swift */; };
 		9BC181501E3916F5005108B7 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1814F1E3916F5005108B7 /* Color.swift */; };
 		9BC181521E3917AD005108B7 /* Red.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC181511E3917AD005108B7 /* Red.swift */; };
 		9BC181541E3917DD005108B7 /* Green.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC181531E3917DD005108B7 /* Green.swift */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		9B3984AA1E4396B700018243 /* SingleObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleObject.swift; sourceTree = "<group>"; };
+		9B3984AC1E43980E00018243 /* SingletonPatternDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonPatternDemo.swift; sourceTree = "<group>"; };
 		9BC1814F1E3916F5005108B7 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		9BC181511E3917AD005108B7 /* Red.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Red.swift; sourceTree = "<group>"; };
 		9BC181531E3917DD005108B7 /* Green.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Green.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				9B3984AA1E4396B700018243 /* SingleObject.swift */,
+				9B3984AC1E43980E00018243 /* SingletonPatternDemo.swift */,
 			);
 			path = SingletonPattern;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				9BE8E2861E37AB7A0063DC54 /* Circle.swift in Sources */,
 				9BE8E28A1E37AB7A0063DC54 /* ShapeFactory.swift in Sources */,
 				9BC181501E3916F5005108B7 /* Color.swift in Sources */,
+				9B3984AD1E43980E00018243 /* SingletonPatternDemo.swift in Sources */,
 				9BC1815C1E391CAA005108B7 /* FactoryProducer.swift in Sources */,
 				9BC181561E39183D005108B7 /* Blue.swift in Sources */,
 				9BC181541E3917DD005108B7 /* Green.swift in Sources */,
